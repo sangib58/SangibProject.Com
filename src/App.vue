@@ -1,23 +1,11 @@
 <template>
   <v-app>
-    <v-navigation-drawer width="550" floating>
+    <v-navigation-drawer color="grey-darken-3" width="550" floating>
       <About/>
     </v-navigation-drawer>
-    <v-main class="d-flex flex-column align-center justify-center">
+    <v-main class="d-flex flex-column align-center justify-center mx-16">
       <Content/>
     </v-main>
-    <!-- <v-main>
-      <v-container>
-        <row>
-          <v-col cols="12" md="6">
-            <About/>
-          </v-col>
-          <v-col cols="12" md="6">
-            <Content/>
-          </v-col>
-        </row>
-      </v-container>
-    </v-main> -->
   </v-app>
 </template>
 
@@ -31,7 +19,7 @@ import Content from '@/views/Content.vue'
       Content
     },
     created(){
-      console.log(this.$route) 
+      //console.log(this.$route) 
     }
   }
 </script>
