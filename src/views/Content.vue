@@ -34,7 +34,7 @@
 
     <section id="project" class="mt-16">
         <v-sheet>                  
-            <v-card class="text-subtitle-1 text-capitalize font-weight-medium" variant="outlined">
+            <v-card :href="this.assessHourSrc" class="text-subtitle-1 text-capitalize font-weight-medium" variant="outlined" hover>
                 <v-card-item>
                     <v-card-title class="text-subtitle-1 text-capitalize font-weight-medium">Assess Hour</v-card-title>               
                 </v-card-item>           
@@ -53,7 +53,7 @@
                     </div>             
                 </v-card-text>    
                 <v-card-actions>
-                    <v-chip-group>
+                    <v-chip-group variant="outlined">
                         <v-chip>Envato Product</v-chip>
                         <v-chip>SaaS</v-chip>
                         <v-chip>Online Exam</v-chip>
@@ -67,7 +67,7 @@
             </v-card>
                     
            
-            <v-card class="my-6" color="grey-darken-3" variant="outlined">
+            <v-card :href="this.quizPlusSrc" class="my-6" color="grey-darken-3" variant="outlined" hover>
                 <v-card-item>
                     <v-card-title>Quiz Plus</v-card-title>
                 </v-card-item>           
@@ -88,7 +88,7 @@
                                 
                 </v-card-text>    
                 <v-card-actions>
-                    <v-chip-group>
+                    <v-chip-group variant="outlined">
                         <v-chip>Envato Product</v-chip>
                         <v-chip>Online Quiz</v-chip>
                         <v-chip>Online Survey</v-chip>
@@ -100,7 +100,7 @@
                     </v-chip-group>
                 </v-card-actions>     
             </v-card>
-            <v-card class="my-6" variant="outlined">
+            <v-card :href="this.vueAdminSrc" class="my-6" variant="outlined" hover>
                 <v-card-item>
                     <v-card-title>Vue Admin</v-card-title>
                 </v-card-item>           
@@ -119,7 +119,7 @@
                                  
                 </v-card-text>    
                 <v-card-actions>
-                    <v-chip-group>
+                    <v-chip-group variant="outlined">
                         <v-chip>Envato Product</v-chip>
                         <v-chip>Admin Template</v-chip>
                         <v-chip>Multilingual</v-chip>
@@ -132,7 +132,7 @@
                     </v-chip-group>
                 </v-card-actions>     
             </v-card>
-            <v-card class="my-6" variant="outlined">
+            <v-card :href="this.coreAdminSrc" class="my-6" variant="outlined" hover>
                 <v-card-item>
                     <v-card-title>Admin Plus</v-card-title>
                 </v-card-item>           
@@ -152,7 +152,7 @@
                                 
                 </v-card-text>    
                 <v-card-actions>
-                    <v-chip-group>
+                    <v-chip-group variant="outlined">
                         <v-chip>Envato Product</v-chip>                       
                         <v-chip>Code First</v-chip>
                         <v-chip>.Net Core</v-chip>
@@ -164,7 +164,7 @@
                     </v-chip-group>
                 </v-card-actions>     
             </v-card>
-            <v-card class="my-6" variant="outlined">
+            <v-card :href="this.qrScannerSrc" class="my-6" variant="outlined" hover>
                 <v-card-item>
                     <v-card-title>QR Scanner & Generator</v-card-title>
                 </v-card-item>           
@@ -186,7 +186,7 @@
                                  
                 </v-card-text>    
                 <v-card-actions>
-                    <v-chip-group>
+                    <v-chip-group variant="outlined">
                         <v-chip>Android App</v-chip>
                         <v-chip>Java</v-chip>
                         <v-chip>Xml</v-chip>
@@ -291,6 +291,11 @@
                 projectImg2:'/images/quiz-plus.png',
                 projectImg3:'/images/vue-admin.png',
                 projectImg4:'/images/admin-plus.png',
+                assessHourSrc:'https://assesshour.sangibproject.com/',
+                quizPlusSrc:'https://quizplus.sangibproject.com/',
+                vueAdminSrc:'https://vueadmin.sangibproject.com/',
+                coreAdminSrc:'https://coreadmin.sangibproject.com/',
+                qrScannerSrc:'https://play.google.com/store/apps/details?id=app.barcode.qrcodereader'
             }
         }
     }

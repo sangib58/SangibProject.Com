@@ -1,12 +1,12 @@
 <template>
-    <v-sheet color="grey-darken-3" class="ma-8">
+    <v-sheet color="grey-darken-3">
         <v-avatar :image="this.homeImg" size="70" class="ml-4"></v-avatar>
         <div class="text-h4 ml-4 text-capitalize">Sangib Kumar Saha</div>
         <div class="ml-4 text-capitalize">Programmer</div>
         <div class="mb-10 ml-4 text-capitalize">
             A design minded software engineer for the web & beyond.
         </div>
-        <v-list>
+        <v-list bg-color="grey-darken-3">
             <v-list-item key="1" prepend-icon="mdi-clock" title="About" :href="this.aboutUrl"></v-list-item>
             <v-list-item key="2" prepend-icon="mdi-account" title="Projects" :href="this.projectUrl"></v-list-item>
             <v-list-item key="3" prepend-icon="mdi-flag" title="Experience" :href="this.experienceUrl"></v-list-item>
