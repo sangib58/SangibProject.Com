@@ -24,6 +24,7 @@
                 :icon="icon.img"
                 :href="icon.route"
                 variant="text"
+                target="_blank"
             ></v-btn>
         </div>                  
     </v-sheet>  
@@ -40,7 +41,7 @@
                 icons: [
                 {img:'mdi-linkedin',route:'https://www.linkedin.com/in/sangib-kumar-saha-663914a1/'},
                 {img:'mdi-github',route:'https://github.com/sangib58'},
-                {img:'mdi-youtube',route:'https://www.youtube.com/channel/UCq17ya4NFrlAnWB0_HEjBSA'},
+                //{img:'mdi-youtube',route:'https://www.youtube.com/channel/UCq17ya4NFrlAnWB0_HEjBSA'},
                 {img:'mdi-facebook',route:'https://www.facebook.com/shuvo58'},
                 {img:'mdi-instagram',route:'https://www.instagram.com/shuvo58/'}   
                 ],

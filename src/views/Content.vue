@@ -1,6 +1,8 @@
 <template>
     <section id="about">
+        
         <v-sheet class="text-subtitle-1 text-capitalize font-weight-medium">
+            <v-img :src="this.logoImg" max-height="75" max-width="250" contain position="right" class="ml-16"></v-img>
             <div class="mb-5">
                 Experienced programmer with a passion for creating innovative software solutions. 
                 I thrive in fast-paced, collaborative environments where I can apply my technical 
@@ -291,6 +293,7 @@
                 projectImg2:'/images/quiz-plus.png',
                 projectImg3:'/images/vue-admin.png',
                 projectImg4:'/images/admin-plus.png',
+                logoImg:'/logo-no-background.png',
                 assessHourSrc:'https://assesshour.sangibproject.com/',
                 quizPlusSrc:'https://quizplus.sangibproject.com/',
                 vueAdminSrc:'https://vueadmin.sangibproject.com/',
