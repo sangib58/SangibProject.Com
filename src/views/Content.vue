@@ -1,42 +1,44 @@
 <template>
     <section id="about">
         
-        <v-sheet class="text-subtitle-1 text-capitalize font-weight-medium">
-            <v-img :src="this.logoImg" max-height="75" max-width="250" contain position="right" class="ml-16"></v-img>
-            <div class="mb-5">
-                Experienced programmer with a passion for creating innovative software solutions. 
-                I thrive in fast-paced, collaborative environments where I can apply my technical 
-                expertise to solve complex problems and deliver high-quality code. With a strong 
-                foundation in programming languages such as C#, Php, Java, Javascript and C++, 
-                I have successfully designed and developed software applications across various domains, 
-                including web development, data analysis, and automation.
-            </div>
-            <div class="mb-5">
-                I possess a solid understanding of software development methodologies and best practices,
-                 leveraging agile principles to deliver robust and scalable solutions. 
-                 My attention to detail and dedication to writing clean, 
-                 efficient code allows me to create software that not only meets functional 
-                 requirements but also maintains high performance.
-            </div>
-            <div class="mb-5">
-                In addition to my technical skills, I am an excellent communicator and enjoy working 
-                closely with cross-functional teams to understand project requirements and 
-                collaborate on delivering exceptional results. I am continuously seeking 
-                opportunities to expand my knowledge and stay up-to-date with the latest 
-                industry trends and technologies.
-            </div>
-            <div>
-                If you are looking for a dedicated programmer who is passionate about 
-                delivering impactful software solutions, let's connect and explore how we 
-                can work together to drive innovation and achieve your business objectives.
-            </div>
+        <v-sheet class="text-subtitle-1 text-capitalize font-weight-medium mt-5">
+            <v-row justify="center" class="mb-4"><v-img :src="this.logoImg" max-height="75" max-width="250" contain></v-img></v-row>
+            <v-row>
+                <div class="mb-5">
+                    Experienced programmer with a passion for creating innovative software solutions. 
+                    I thrive in fast-paced, collaborative environments where I can apply my technical 
+                    expertise to solve complex problems and deliver high-quality code. With a strong 
+                    foundation in programming languages such as C#, Php, Java, Javascript and C++, 
+                    I have successfully designed and developed software applications across various domains, 
+                    including web development, data analysis, and automation.
+                </div>
+                <div class="mb-5">
+                    I possess a solid understanding of software development methodologies and best practices,
+                    leveraging agile principles to deliver robust and scalable solutions. 
+                    My attention to detail and dedication to writing clean, 
+                    efficient code allows me to create software that not only meets functional 
+                    requirements but also maintains high performance.
+                </div>
+                <div class="mb-5">
+                    In addition to my technical skills, I am an excellent communicator and enjoy working 
+                    closely with cross-functional teams to understand project requirements and 
+                    collaborate on delivering exceptional results. I am continuously seeking 
+                    opportunities to expand my knowledge and stay up-to-date with the latest 
+                    industry trends and technologies.
+                </div>
+                <div>
+                    If you are looking for a dedicated programmer who is passionate about 
+                    delivering impactful software solutions, let's connect and explore how we 
+                    can work together to drive innovation and achieve your business objectives.
+                </div>  
+            </v-row>          
             
         </v-sheet>
     </section>
 
     <section id="project" class="mt-16">
         <v-sheet>                  
-            <v-card :href="this.assessHourSrc" class="text-subtitle-1 text-capitalize font-weight-medium" variant="outlined" hover>
+            <v-card :href="this.assessHourSrc" target="_blank" class="text-subtitle-1 text-capitalize font-weight-medium" variant="outlined" hover>
                 <v-card-item>
                     <v-card-title class="text-subtitle-1 text-capitalize font-weight-medium">Assess Hour</v-card-title>               
                 </v-card-item>           
@@ -69,7 +71,7 @@
             </v-card>
                     
            
-            <v-card :href="this.quizPlusSrc" class="my-6" color="grey-darken-3" variant="outlined" hover>
+            <v-card :href="this.quizPlusSrc" target="_blank" class="my-6" color="grey-darken-3" variant="outlined" hover>
                 <v-card-item>
                     <v-card-title>Quiz Plus</v-card-title>
                 </v-card-item>           
@@ -102,7 +104,7 @@
                     </v-chip-group>
                 </v-card-actions>     
             </v-card>
-            <v-card :href="this.vueAdminSrc" class="my-6" variant="outlined" hover>
+            <v-card :href="this.vueAdminSrc" target="_blank" class="my-6" variant="outlined" hover>
                 <v-card-item>
                     <v-card-title>Vue Admin</v-card-title>
                 </v-card-item>           
@@ -134,7 +136,7 @@
                     </v-chip-group>
                 </v-card-actions>     
             </v-card>
-            <v-card :href="this.coreAdminSrc" class="my-6" variant="outlined" hover>
+            <v-card :href="this.coreAdminSrc" target="_blank" class="my-6" variant="outlined" hover>
                 <v-card-item>
                     <v-card-title>Admin Plus</v-card-title>
                 </v-card-item>           
@@ -166,7 +168,7 @@
                     </v-chip-group>
                 </v-card-actions>     
             </v-card>
-            <v-card :href="this.qrScannerSrc" class="my-6" variant="outlined" hover>
+            <v-card :href="this.qrScannerSrc" target="_blank" class="my-6" variant="outlined" hover>
                 <v-card-item>
                     <v-card-title>QR Scanner & Generator</v-card-title>
                 </v-card-item>           
