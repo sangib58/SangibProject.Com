@@ -3,7 +3,7 @@
         
         <v-sheet class="text-subtitle-1 text-capitalize font-weight-medium mt-5">
             <v-row justify="center" class="mb-4"><v-img :src="this.logoImg" max-height="75" max-width="250" contain></v-img></v-row>
-            <v-row>
+            <v-row class="mx-1 md-mx-4">
                 <div class="mb-5">
                     Experienced programmer with a passion for creating innovative software solutions. 
                     I thrive in fast-paced, collaborative environments where I can apply my technical 
